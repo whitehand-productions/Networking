@@ -1,0 +1,3 @@
+Full Mesh Network Connection Calculator
+
+This Python script calculates the number of unique connections needed to fully connect all nodes in a full mesh network. In an undirected full mesh, every node connects directly to every other node with bidirectional links, using the formula Connections = n(n - 1) / 2, where n is the number of nodes. In a directed full mesh, where connections have a direction (from one node to another), the total number of connections is n(n - 1) since each pair of nodes has two distinct links. For example, 5 nodes require 10 connections in an undirected mesh and 20 in a directed mesh. This script is useful for network planning and hardware estimation. Simply run it and enter the number of nodes when prompted.
