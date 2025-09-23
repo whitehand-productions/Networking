@@ -1,5 +1,4 @@
 import socket
-import time
 from scapy.all import ARP, Ether, srp
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -50,5 +49,6 @@ def build_network_graph(devices, gateway_ip="192.168.0.1"):
 
         for d in devices:
             print(f"IP: {d['ip']}, MAC: {d['mac']}, Host: {d['host']}")
+
 
         build_network_graph(devices)
