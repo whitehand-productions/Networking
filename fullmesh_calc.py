@@ -1,8 +1,8 @@
 # Calculating the Number of Connections needed in a Full Mesh Network
 
-print("-------------------------------------")
+print("-"*35)
 print("       FULL MESH CALCULATOR          ")
-print("-------------------------------------\n")
+print("-"*35)
 
 
 while True:
@@ -13,6 +13,8 @@ while True:
     print(f"{undirected_connections} undirected connections required")
     print(f"{directed_connections} directed connections required")
     use_again = input("Use again? [Y/N]").strip().upper()
+    print()
     if use_again != "Y":
         break
+
 
